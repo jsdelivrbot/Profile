@@ -1,0 +1,30 @@
+[
+  {
+  "id":"p00"
+  ,"title":"個人網站"
+  ,"link":"https://yhk2079.github.io/Profile"
+  ,"skill":"JAVASCRIPT:\n(1) 使用 react.js 來建構網站的 view。\n(2) 使用 redux 和 axios 來取得資料。\n(3) 使用 react-router 來設定網頁的路徑。"
+  ,"text":"嘗試使用 react 來建立網頁，並藉此學習 view 與資料流分開的架構，練習 react 對網頁的呈現方式跟一般使用 HTML、CSS、JAVASCRIPT或JQUERY 有什麼樣的不同。"
+  },
+  {
+  "id":"p01"
+  ,"title":"火車站導覽網頁"
+  ,"link":"https://yhk2079.github.io/station_guide/"
+  ,"skill":"HTML:\r\n使用 Query string 來傳遞資料，使得頁面能夠重複利用。\r\nCSS:\r\n(1) 利用 RWD 來實作版型，藉以能夠在多種裝置上顯示。\r\n(2) 使用 transition 製作出動畫效果。\r\nJAVASCRIPT:\r\n(1) 利用原生 js 實做出圖片輪播、相簿\r\n(2) 使用預先儲存 json 檔案來轉譯頁面，減少使用者一開始需要載入\r\n的檔案大小，並藉以模擬與伺服器間的互動。\r\n(3) 串接 google map api"
+  ,"text":"由於大學專題的緣故，在使用任何框架前，盡量去了解該框架的基礎是由什麼所構成，並去觀察各個功能的寫法是很重要的，再者由於目前所寫的網頁沒有需要很複雜的功能，所以使用原生的 javascript、CSS和 HTML 來實作。"
+  },
+  {
+  "id":"p02"
+  ,"title":"PM2.5 濃度查詢網頁"
+  ,"link":"https://yhk2079.github.io/pm2.5/"
+  ,"skill":"JAVASCRIPT:\n(1) 以 JSONP 來串接政府開放資料平台的 API。\n(2) 將得到的資料實作出快速查詢行政區的功能。"
+  ,"text":"由於政府開放資料平台雖然沒有開放 CORS 的功能，但有開放 JSONP的功能，所以使用 JSONP 來存取資料，並轉譯成頁面。"
+  },
+  {
+  "id":"p03"
+  ,"title":"原生 html&css 日夜切換動畫網頁"
+  ,"link":"https://yhk2079.github.io/css_toggle/"
+  ,"skill":"HTML:\n(1)利用 label 標籤來達成狀態效果的判別。\nCSS:\n(1) 利用 transition 和 animation 來實作出動畫效果。"
+  ,"text":"不依賴 javascript，僅利用 HTML 和 CSS 來實作出簡易狀態的判別與動畫的效果。"
+  }
+]
