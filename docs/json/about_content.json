@@ -1,0 +1,7 @@
+{
+  "info":"姓名:余浩廣\n年齡:24\r\ne-mail:yhk2079@gmail.com"
+  ,"edu":"私立中華大學 資訊工程系 就學期間： 2011/06~2015/06"
+  ,"exp":"2011 年參加校內程式競賽。(第三名)\n2012 年參加全國大專電腦軟體設計競賽。\n2012 年參加 ITSA 線上程式設計大賽。(績優)"
+  ,"skill":" CSS\n(1)CSS animation\n(2)Responsive Web Design\n\nJAVASCRIPT\n(1)DOM元件操作\n(2)使用ajax取得資料，並轉譯成頁面\n(3)第三方API串接(例:政府開放資料平台、google map api)"
+  ,"portfolio":"\n\n以jsonp串結API實作出pm2.5查詢網頁\n(https://yhk2079.github.io/css_toggle/)\n\n以 html 和 css 實作出日夜切換的效果\n(https://yhk2079.github.io/css_toggle/)\n\n以 html、css、javascript 實作火車站導覽網頁\n(https://yhk2079.github.io/station_guide/)"
+}
