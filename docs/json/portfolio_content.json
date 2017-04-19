@@ -2,9 +2,9 @@
   {
   "id":"p00"
   ,"title":"個人網站"
-  ,"link":"https://yhk2079.github.io/station_guide/"
-  ,"skill":"HTML:\r\n使用 Query string 來傳遞資料，使得頁面能夠重複利用。\r\nCSS:\r\n(1) 利用 RWD 來實作版型，藉以能夠在多種裝置上顯示。\r\n(2) 使用 transition 製作出動畫效果。\r\nJAVASCRIPT:\r\n(1) 利用原生 js 實做出圖片輪播、相簿\r\n(2) 使用預先儲存 json 檔案來轉譯頁面，減少使用者一開始需要載入\r\n的檔案大小，並藉以模擬與伺服器間的互動。\r\n(3) 串接 google map api"
-  ,"text":"由於大學專題的緣故，在使用任何框架前，盡量去了解該框架的基礎是由什麼所構成，並去觀察各個功能的寫法是很重要的，再者由於目前所寫的網頁沒有需要很複雜的功能，所以使用原生的 javascript、CSS和 HTML 來實作。"
+  ,"link":"https://yhk2079.github.io/Profile"
+  ,"skill":"JAVASCRIPT:\n(1) 使用 react.js 來建構網站的 view。\n(2) 使用 redux 和 axios 來取得資料。\n(3) 使用 react-router 來設定網頁的路徑。"
+  ,"text":"嘗試使用 react 來建立網頁，並藉此學習 view 與資料流分開的架構，練習 react 對網頁的呈現方式跟一般使用 HTML、CSS、JAVASCRIPT或JQUERY 有什麼樣的不同。"
   },
   {
   "id":"p01"
