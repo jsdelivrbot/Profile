@@ -2,6 +2,7 @@ import React ,{Component} from 'react';
 import {connect} from 'react-redux';
 import {fetchPortfolio} from '../actions/index';
 import {Link} from 'react-router';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Portfolio extends Component{
   componentWillMount(){
@@ -31,6 +32,13 @@ class Portfolio extends Component{
 
   render(){
     const {portfolio} = this.props;
+    const transitionOptions={
+      transitionName:"fade",
+      transitionAppear:true,
+      transitionAppearTimeout:1000,
+      transitionEnterTimeout:1000,
+      transitionLeaveTimeout:1000
+    }
     //console.log(this.props.portfolio);
 
     if(!portfolio){
@@ -38,11 +46,13 @@ class Portfolio extends Component{
     }
 
     return (
+      <ReactCSSTransitionGroup {...transitionOptions}>
       <div>
         <div>
         {this.rendPortfolio()}
         </div>
       </div>
+      </ReactCSSTransitionGroup>
     );
   }
 }

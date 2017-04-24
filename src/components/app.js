@@ -11,12 +11,12 @@ export default class App extends Component{
     ];
 
     const rendNav = /*this.state.*/nav.map((navItem)=>{
-      return  <Link  key={navItem.link} to={navItem.link}>
+      return  (<Link  key={navItem.link} to={navItem.link}>
                 <li>
                   {navItem.title}
                 </li>
               </Link>
-                ;
+            );
     });
 
     return (

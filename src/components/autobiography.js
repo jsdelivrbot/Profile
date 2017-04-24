@@ -1,6 +1,7 @@
 import React ,{Component} from 'react';
 import {connect} from 'react-redux';
 import {fetchAutobio} from '../actions/index';
+import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 
 class Autobiography extends Component{
   componentWillMount(){
@@ -9,6 +10,13 @@ class Autobiography extends Component{
 
   render(){
     const {autobio} = this.props;
+    const transitionOptions={
+      transitionName:"fade",
+      transitionAppear:true,
+      transitionAppearTimeout:1000,
+      transitionEnterTimeout:1000,
+      transitionLeaveTimeout:1000
+    }
 
     if(!autobio){
       return (
@@ -20,13 +28,15 @@ class Autobiography extends Component{
 
     return (
       <div className="panel">
-        <div className="panel-heading">
-          <h2>自傳</h2>
-        </div>
+        <ReactCSSTransitionGroup {...transitionOptions}>
+          <div className="panel-heading">
+            <h2>自傳</h2>
+          </div>
 
-        <div className="panel-body">
-          {autobio.text}
-        </div>
+          <div className="panel-body">
+            {autobio.text}
+          </div>
+        </ReactCSSTransitionGroup>
       </div>
     );
   }
