@@ -1,6 +1,7 @@
 .container{
   width:100%;
   padding-top:60px;
+  position:relative;
 }
 
 div {
@@ -76,4 +77,16 @@ body{
 
 h3,h4{
   margin-top:10px;
+}
+
+/*animation*/
+.fade-appear {
+  opacity: 0.01;
+  right:100px;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  right:0px;
+  transition: all 1s ease-in;
 }
