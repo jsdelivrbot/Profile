@@ -35,7 +35,7 @@ module.exports = {
     inline: true,
     historyApiFallback: true,
     contentBase: './',
-    port: 8008
+    port: 8080
   },
   // plugins 放置所使用的外掛
   plugins: [HTMLWebpackPluginConfig]
